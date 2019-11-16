@@ -17,11 +17,11 @@ public class ObstaculoMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        
-        
-            if (transform.position.y < -2f)
+        Debug.Log(transform.position.y);
+
+        if (transform.position.y < -2f)
             {
-            
+                
             Destroy(gameObject);
             }
         
